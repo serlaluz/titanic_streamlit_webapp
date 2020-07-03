@@ -34,9 +34,9 @@ def main():
 #The following allows inputs to be inserted in order to make our predictions
   Age = st.slider("How old are you", 1, 100)
 
-  SibSp = st.slider("How many Siblings or Spouse are onboard?", 1, 10)
+  SibSp = st.slider("How many Siblings or Spouse are onboard?", 0, 10)
 
-  Parch = st.slider("How many Parents or Children are onboard?", 1, 10)
+  Parch = st.slider("How many Parents or Children are onboard?", 0, 10)
 
   Fare = st.number_input("Enter Fare value 1-512 with Decimals (ex 100.00) ")
 
