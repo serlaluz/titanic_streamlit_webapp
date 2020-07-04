@@ -19,7 +19,7 @@ Project URL - https://titanic-streamlit-webapp.herokuapp.com/
 3. requirements.txt
 
 ## Future Fixes
-1. Set default value for Siblings, Parents as 0. 
+1. ~Set default value for Siblings, Parents as 0.~
 2. Remove the numbers that are visible after clicking on `Predict Survivability`
 
 ### References
